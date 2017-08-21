@@ -9,9 +9,9 @@
     <link href="app.css" rel="stylesheet">
   </head>
   <body>
-    <nav class="grey-bg">
-      <div class="container">
-        <div class="nav-left">
+    <nav class="grey-bg menu has-text-centered">
+      <div class="container"> 
+        <div class="columns pad-t-b-10 has-text-light menu"> 
           <a class="nav-item is-tab is-hidden-mobile is-active">О НАС</a>
           <svg height="100%" width="2">
             <line x1="0" y1="0" x2="0" y2="100%" style="stroke:rgb(255,255,255);stroke-width:2" />
@@ -131,11 +131,12 @@
         </div>
       </div>
     </nav>
+
     <div class="section">
       <div class="container">
-      <h1>Главная/<strong><a href="#" title="">Личные даные</a></strong></h1>
-      <section class="hero">
-        <div class="hero-body">
+        <h1>Главная/<strong><a href="#" title="">Личные даные</a></strong></h1>
+        <section class="hero">
+          <div class="hero-body">
           <div class="container">
             <div class="columns">  
               <div class="column">            
@@ -146,30 +147,32 @@
             </div>
             <div class="columns">
               <div class="column is-3"> 
-                <aside class="menu">
-                  <ul class="menu-list"><li><a>Личные данные</a></li>
+              <aside class="menu">
+                <ul class="menu-list"><li><a>Личные данные</a></li>
                   <li><a>Ваша корзина</a></li>
                   <li><a>Мои заказы</a></li>
                   <li><a>Список желаний</a></li>
                   <li><a>Выйти</a></li>
-                  </ul>  
-                </aside>             
+                </ul>  
+              </aside>             
               </div> 
               <div class="column">
-              <div>
-                <h2 class="is-pulled-left" style="color: green">Персональные данные</h2>
-                <div class="is-pulled-right">
+                <div  class="columns">
+                  <div class="column is-6 is-pulled-left">
+                    <h2 class="title" style="color: green">Персональные данные</h2>
+                  </div>
+                  <div class="column is-5 is-pulled-right">
                     <p style="color: gray">Связь c соцсетями <span style="color: black">для входа в один клик</span></p>
+                  </div>
                 </div>
-              </div>
                 <div class="columns">
-                  <div class="column is-3">                 
+                  <div class="column is-2 has-text-right">                 
                     <label class="label">Ваше имя:</label>
                     <label class="label">Телефон:</label>
                     <label class="label">E-mail:</label>
-                  
+
                   </div>
-                  <div class="column"> 
+                  <div class="column is-6"> 
                     <input class="input" type="text" placeholder="Ярослава Ермакова">
                     <input class="input" type="tel" placeholder="093 173-58-98">
                     <input class="input" type="text" placeholder="slava@gmail.com">
@@ -184,14 +187,81 @@
                       </label>
                     </label>
                     <label class="label">Дата рождения:
-                      <input class="input" type="date" >
+                      <input class="input" type="date" style="width: 100px">
                     </label>
                   </div>
-              </div> 
-            </div>        
+                </div>
+                <div  class="columns">
+                  <div class="column is-pulled-left">
+                    <h2 class="title" style="color: green">Адрес доставки</h2>
+                    <h2 class="subtitle" >Указав адрес, вы сможете оформить заказ в течении 6о секунд</h2>
+                  </div>               
+                </div>
+                <div class="columns">
+                  <div class="column is-2 has-text-right">                 
+                    <label class="label">Населенный пункт:</label>
+                    <label class="label">Улица:</label>
+
+                  </div>
+                  <div class="column is-6"> 
+                    <input class="input" type="text" placeholder="Начните вводить населенный пункт">
+                    <input class="input" type="tel" placeholder="Начните вводить улицу">
+                                      
+                    
+                  </div>
+                </div>
+                <div class="columns">
+                  <div class="column is-2 has-text-right">                    
+                    <label class="label">Дом:</label>
+                  </div>
+
+                  <div class="column is-2">
+                  <input class="input" type="text" style="width:100px">
+                  </div>
+
+                  <div class="column is-1 has-text-right">
+                    <label class="label">Квартира:</label>
+                  </div>
+
+                  <div class="column is-2">
+                  <input class="input" type="text" style="width:100px">
+                  </div>
+                </div>
+                <div  class="columns">
+                  <div class="column is-pulled-left">
+                    <h2 class="title" style="color: green">Пароль</h2>
+                  </div>               
+                </div>
+                <div class="columns">
+                  <div class="column is-3 has-text-right">                 
+                    <label class="label"> Текущий пароль:</label>
+                    <label class="label">Новый пароль:</label>
+                    <label class="label">Подтверждения пароля:</label>
+
+                  </div>
+                  <div class="column is-6">
+                    <input class="input" type="password">
+                    <div class="field">
+                      <p class="control has-icons-left">
+                        <input class="input" type="password" placeholder="Password">
+                        <span class="icon is-small is-right">
+                          <i class="fa fa-eya"></i>
+                        </span>
+                      </p>
+                    </div>
+
+                                      
+                    
+                  </div>
+                </div>
+
+
+                
+
+              </div>        
+            </div>
           </div>
-        </div>
-      </section>        
+        </section>        
       </div>      
     </div>
      
